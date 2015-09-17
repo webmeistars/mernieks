@@ -1,0 +1,14 @@
+body {
+background-color: #473a2d;
+}
+
+p{
+  color: white;
+  font-family: "Open-Sans";
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-family: "Open-Sans";
+}

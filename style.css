@@ -1,14 +1,37 @@
-body {
-background-color: #473a2d;
+.header{
+	height: 95px;
+	background-color: #473a2d;
 }
 
-p{
-  color: white;
-  font-family: "Open-Sans";
+.slider{
+	height: 595px;
 }
 
-a:link {
-    color: white;
-    text-decoration: none;
-    font-family: "Open-Sans";
+.slider-image{
+	height: 595px;
+	width: 1280px;
+}
+
+.services{
+	height: 400px;
+	background-color: gray;
+}
+
+.prices{
+	height: 400px;
+	background-color: aqua;
+}
+
+.about-us{
+	height: 400px;
+	background-color: blue;
+}
+
+.clients{
+	height: 300px;
+	background-color: green;
+}
+
+.contacts{
+	
 }

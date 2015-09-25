@@ -16,10 +16,21 @@
 
 	.text-subblock h2{
 		margin-top: 0px;
+		font-family: 'Open Sans';
+		font-size: 24px;
+		font-weight: lighter;
+		color: #473a15;
 	}
 
+		.text-subblock p{
+			font-family: 'Open Sans';
+			font-size: 15px;
+			font-weight: lighter;
+			color: #534c38;
+		}
+
 .line{
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #534c38;
 	width: 55px;
 }
 
@@ -47,8 +58,10 @@
 			margin-top: 22px;
 		}
 
+/* ================== MENU ====================== */
+
 	.header .menu-container{
-		width: 600px;
+		width: 615px;
 		background-color: red;
 		margin-right: 100px;
 		float: right;
@@ -83,12 +96,32 @@
 				}
 
 		.header .menu-container .languages{
-			height: 56px;
-			width: 100px;
+			height: 55px;
+			width: 115px;
 			background-color: fuchsia;
 			float: right;
 		}
 
+		.header .menu-container .languages ul{
+				list-style-type: none; 
+		}
+		
+		.header .menu-container .languages ul li{
+			float: left; 
+			font-family: 'Open Sans';
+			font-size: 13px;	
+		}		
+		
+		.header .menu-container .languages ul li a{
+			display: block;
+			padding: 10px;
+			text-decoration: none;
+			color: white;
+			margin-top: -8px;
+		}
+		.header .menu-container .languages ul li a:hover{
+			background-color: #5b4d3b;
+		}
 /* ================== SLIDER ====================== */
 
 .slider{
@@ -108,7 +141,7 @@
 
 
 	.services-prices-container .services{
-		height: 600px;
+		height: 700px;
 	#	background-color: red;
 	#	opacity: 0.3;
 	}
@@ -134,30 +167,29 @@
 		.services-prices-container .services .bloki{
 			margin-left: 100px;
 			margin-right: 100px;
-			background-color: yellow;
+		#	background-color: yellow;
 			}
 	
 			.services-prices-container .services .bloks1{
 				width: 340px;
-				background-color: blue;
+			#	background-color: blue;
 				float: left;
 				}
 			.services-prices-container .services .bloks2{
 				float: left;
 				width: 340px;
-				background-color: red;
+			#	background-color: red;
 				margin: 0 30px;
 				}
 			.services-prices-container .services .bloks3{
 				float: left;
 				width: 340px;
-				background-color: brown;
+			#	background-color: brown;
 				}
 
 	.services-prices-container .prices{
 		height: 400px;
 	#	background-color: aqua;
-	#	opacity: 0.3;
 	}
 
 		.services-prices-container .prices .title-container{
@@ -178,6 +210,19 @@
 				padding-top: 40px;
 				}
 
+
+		.services-prices-container .prices .izcenojumi-bloki{
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 /* ================== ABOUT US ====================== */
 
 .about-us{

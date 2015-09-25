@@ -188,7 +188,7 @@
 				}
 
 	.services-prices-container .prices{
-		height: 400px;
+		height: 600px;
 	#	background-color: aqua;
 	}
 
@@ -217,18 +217,96 @@
 		}
 		
 		
+			.services-prices-container .prices .izcenojumi-bloki .izcenojumi-bloks1{
+				width: 510px;
+				height: 400px;
+				float: left;
+				margin-right: 30px;
+				background-color: lime;
+			}
+
+				.services-prices-container .prices .izcenojumi-bloki .izcenojumi-bloks1 > h3{
+					font-family: 'Open Sans';
+					font-size: 17px;
+					font-weight: lighter;
+					color: #473a15;
+					margin-top: 5px;
+				}
+			
+			.services-prices-container .prices .izcenojumi-bloki .izcenojumi-bloks2{
+				width: 510px;
+				height: 400px;
+				float: left;
+				margin-left: 30px;
+				background-color: blue;
+			}
 		
-		
-		
+				.services-prices-container .prices .izcenojumi-bloki .izcenojumi-bloks2 > h3{
+					font-family: 'Open Sans';
+					font-size: 17px;
+					font-weight: lighter;
+					color: #473a15;
+					margin-top: 5px;
+				}		
 		
 		
 		
 /* ================== ABOUT US ====================== */
 
 .about-us{
-	height: 400px;
-	background-color: blue;
+	height: 800px;
+#	background-color: blue;
+	background-image: url("img/bg-dark.jpg");
 }
+
+		.about-us .title-container{
+			height: 111px;
+			margin-left: 100px;
+			margin-right: 100px;
+		#	background-color: blue;
+			border-bottom: 1px dashed #b4974c;
+			margin-bottom: 30px;
+			}
+	
+			.title-parmums{
+				text-align: center;
+				font-family: 'Open Sans';
+				font-size: 30px;
+				font-weight: lighter;
+				color: #c7a457;
+				padding-top: 40px;
+				}
+
+		.about-us .ievadteksts{
+			font-family: 'Open Sans';
+			font-size: 17px;
+			font-weight: lighter;
+			color: white;
+			margin-top: 65px;
+			}
+			
+	.about-us .parmums-bloki{
+			margin-left: 100px;
+			margin-right: 100px;
+		}
+	
+		.about-us .parmums-bloki .parmums-bloks1{
+				width: 510px;
+				height: 400px;
+				float: left;
+				margin-right: 30px;
+				margin-top: 150px;
+				background-color: lime;
+			}
+
+		.about-us .parmums-bloki .parmums-bloks2{
+				width: 510px;
+				height: 400px;
+				float: left;
+				margin-left: 30px;
+				margin-top: 150px;
+				background-color: lime;
+			}
 
 /* ================== CLIENTS ====================== */
 

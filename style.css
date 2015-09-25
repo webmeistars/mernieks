@@ -16,20 +16,19 @@
 	height: 100%;
 	width: 250px;
 	background-color: red;
-	margin-left: 50px;
+	margin-left: 100px;
 	float: left;
 }
 
 .header .logo .logo-image{
 	margin-top: 22px;
 	margin-left: 20px;
-
 }
 
 .header .menu-container{
 	width: 500px;
 	background-color: red;
-	margin-right: 50px;
+	margin-right: 100px;
 	float: right;
 	padding: 19px 0;
 }
@@ -56,17 +55,32 @@
 
 .slider-image{
 
-
 }
 
-.services{
+.services-prices-container{
+	background-image: url("img/bg-light.gif");
+}
+
+
+.services-prices-container .services{
 	height: 400px;
-	background-color: gray;
+	background-color: red;
+	opacity: 0.3;
 }
 
-.prices{
+.services-prices-container .services .title{
+	height: 111px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: blue;
+	border-bottom: 1px dashed gray;
+	text-align: center;
+}
+
+.services-prices-container .prices{
 	height: 400px;
 	background-color: aqua;
+	opacity: 0.3;
 }
 
 .about-us{
@@ -82,3 +96,6 @@
 .contacts{
 	
 }
+
+{wetw}
+{wwewt}

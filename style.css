@@ -12,70 +12,102 @@
 	background-color: #473a2d;
 }
 
-.header .logo{
-	height: 100%;
-	width: 250px;
-	background-color: red;
-	margin-left: 100px;
-	float: left;
-}
+	.header .logo{
+		height: 100%;
+		width: 250px;
+	#	background-color: red;
+		margin-left: 100px;
+		float: left;
+	}
 
-.header .logo .logo-image{
-	margin-top: 22px;
-	margin-left: 20px;
-}
+		.header .logo .logo-image{
+			margin-top: 22px;
+		}
 
-.header .menu-container{
-	width: 500px;
-	background-color: red;
-	margin-right: 100px;
-	float: right;
-	padding: 19px 0;
-}
+	.header .menu-container{
+		width: 500px;
+		background-color: red;
+		margin-right: 100px;
+		float: right;
+		padding: 19px 0;
+	}
 
-.header .menu-container .menu{
-	height: 55px;
-	width: 399px;
-	background-color: #00dbfd;
-	float: left;
-	border-right: 1px solid white;
-}
+		.header .menu-container .menu{
+			height: 55px;
+			width: 399px;
+			background-color: #00dbfd;
+			float: left;
+			border-right: 1px solid white;
+		}
 
-.header .menu-container .languages{
-	height: 56px;
-	width: 100px;
-	background-color: fuchsia;
-	float: right;
-}
+		.header .menu-container .languages{
+			height: 56px;
+			width: 100px;
+			background-color: fuchsia;
+			float: right;
+		}
 
 .slider{
 	width: 1280px;
 	height: 543px;
 }
 
-.slider-image{
-
-}
+	.slider-image{
+	
+	}
 
 .services-prices-container{
 	background-image: url("img/bg-light.gif");
 }
 
 
-.services-prices-container .services{
-	height: 400px;
-	background-color: red;
-	opacity: 0.3;
-}
+	.services-prices-container .services{
+		height: 600px;
+	#	background-color: red;
+	#	opacity: 0.3;
+	}
 
-.services-prices-container .services .title{
-	height: 111px;
-	margin-left: 100px;
-	margin-right: 100px;
-	background-color: blue;
-	border-bottom: 1px dashed gray;
-	text-align: center;
-}
+		.services-prices-container .services .title-container{
+			height: 111px;
+			margin-left: 100px;
+			margin-right: 100px;
+		#	background-color: blue;
+			border-bottom: 1px dashed #63501e;
+			}
+	
+		.title-pakalpojumi{
+			text-align: center;
+			font-family: 'Open Sans';
+			font-size: 30px;
+			font-weight: lighter;
+			color: #95782d;
+			padding-top: 40px;
+			}
+
+		.services-prices-container .services .geodezijas-bloks{
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: yellow;
+			}
+	
+			.services-prices-container .services .bloks1{
+				height: 100px;
+				width: 360px;
+				background-color: blue;
+				float: left;
+				}
+			.services-prices-container .services .bloks2{
+				float: left;
+				height: 100px;
+				width: 360px;
+				background-color: red;
+				}
+			.services-prices-container .services .bloks3{
+				float: left;
+				height: 100px;
+				width: 360px;
+				background-color: brown;
+				}
 
 .services-prices-container .prices{
 	height: 400px;
@@ -96,6 +128,3 @@
 .contacts{
 	
 }
-
-{wetw}
-{wwewt}

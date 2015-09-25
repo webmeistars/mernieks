@@ -1,11 +1,34 @@
+/* IZMANTOTI VAIRAKKART */
+
+.clear{
+	clear: both;
+}
+
+.icon-subblock{
+	float: left;
+}
+
+.text-subblock{
+	width: 250px;
+	float: left;
+	margin-left: 10px;
+}
+
+	.text-subblock h2{
+		margin-top: 0px;
+	}
+
+.line{
+	border-bottom: 1px solid black;
+	width: 55px;
+}
+
 .main-container{
 	width: 1280px;
 	margin: 0 auto;
 }
 
-.clear{
-	clear: both;
-}
+/* ================== HEADER ====================== */
 
 .header{
 	height: 95px;
@@ -25,7 +48,7 @@
 		}
 
 	.header .menu-container{
-		width: 500px;
+		width: 600px;
 		background-color: red;
 		margin-right: 100px;
 		float: right;
@@ -34,11 +57,30 @@
 
 		.header .menu-container .menu{
 			height: 55px;
-			width: 399px;
+			width: 499px;
 			background-color: #00dbfd;
 			float: left;
 			border-right: 1px solid white;
 		}
+
+			.header .menu-container .menu ul{
+				list-style-type: none; 
+				}
+			.header .menu-container .menu ul li{
+				float: left; 
+				font-family: 'Open Sans';
+				font-size: 15px;
+				}
+			.header .menu-container .menu ul li a{
+				display: block;
+				padding: 10px;
+				text-decoration: none;
+				color: white;
+				margin-top: -8px;
+				}
+			.header .menu-container .menu ul li a:hover{
+				background-color: #5b4d3b;
+				}
 
 		.header .menu-container .languages{
 			height: 56px;
@@ -46,6 +88,8 @@
 			background-color: fuchsia;
 			float: right;
 		}
+
+/* ================== SLIDER ====================== */
 
 .slider{
 	width: 1280px;
@@ -55,6 +99,8 @@
 	.slider-image{
 	
 	}
+
+/* ================== SERVICES ====================== */
 
 .services-prices-container{
 	background-image: url("img/bg-light.gif");
@@ -73,57 +119,80 @@
 			margin-right: 100px;
 		#	background-color: blue;
 			border-bottom: 1px dashed #63501e;
+			margin-bottom: 30px;
 			}
 	
-		.title-pakalpojumi{
-			text-align: center;
-			font-family: 'Open Sans';
-			font-size: 30px;
-			font-weight: lighter;
-			color: #95782d;
-			padding-top: 40px;
-			}
+			.title-pakalpojumi{
+				text-align: center;
+				font-family: 'Open Sans';
+				font-size: 30px;
+				font-weight: lighter;
+				color: #95782d;
+				padding-top: 40px;
+				}
 
-		.services-prices-container .services .geodezijas-bloks{
+		.services-prices-container .services .bloki{
 			margin-left: 100px;
 			margin-right: 100px;
 			background-color: yellow;
 			}
 	
 			.services-prices-container .services .bloks1{
-				height: 100px;
-				width: 360px;
+				width: 340px;
 				background-color: blue;
 				float: left;
 				}
 			.services-prices-container .services .bloks2{
 				float: left;
-				height: 100px;
-				width: 360px;
+				width: 340px;
 				background-color: red;
+				margin: 0 30px;
 				}
 			.services-prices-container .services .bloks3{
 				float: left;
-				height: 100px;
-				width: 360px;
+				width: 340px;
 				background-color: brown;
 				}
 
-.services-prices-container .prices{
-	height: 400px;
-	background-color: aqua;
-	opacity: 0.3;
-}
+	.services-prices-container .prices{
+		height: 400px;
+	#	background-color: aqua;
+	#	opacity: 0.3;
+	}
+
+		.services-prices-container .prices .title-container{
+			height: 111px;
+			margin-left: 100px;
+			margin-right: 100px;
+		#	background-color: blue;
+			border-bottom: 1px dashed #63501e;
+			margin-bottom: 30px;
+			}
+
+			.title-izcenojumi{
+				text-align: center;
+				font-family: 'Open Sans';
+				font-size: 30px;
+				font-weight: lighter;
+				color: #95782d;
+				padding-top: 40px;
+				}
+
+/* ================== ABOUT US ====================== */
 
 .about-us{
 	height: 400px;
 	background-color: blue;
 }
 
+/* ================== CLIENTS ====================== */
+
 .clients{
 	height: 300px;
 	background-color: green;
 }
+
+/* ================== CONTACTS ====================== */
 
 .contacts{
 	

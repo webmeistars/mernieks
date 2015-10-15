@@ -1,6 +1,6 @@
 /* GLOBALLY USED */
-* {
-  font-family: 'Open Sans', sans-serif;
+body{
+	font-family: 'Open Sans';
 }
 
 .clear{
@@ -76,13 +76,13 @@
 	width: 55px;
 }
 
-.services-text-subblock{
+.text-subblock{
 	width: 250px;
 	float: left;
 	margin-left: 10px;
 }
 
-	.services-text-subblock h2{
+	.text-subblock h2{
 		margin-top: 0px;
 		font-family: 'Open Sans';
 		font-size: 24px;
@@ -90,7 +90,7 @@
 		color: #473a15;
 	}
 
-		.services-text-subblock p{
+		.text-subblock p{
 			font-family: 'Open Sans';
 			font-size: 15px;
 			font-weight: lighter;
@@ -125,17 +125,17 @@
 /* ================== MENU ====================== */
 
 .HEADER .menu-container{
-	width: 617px;
-#	background-color: red;
-	margin-right: 80px;
+	width: 615px;
+	background-color: red;
+	margin-right: 100px;
 	float: right;
 	padding: 19px 0;
 }
 
 	.HEADER .menu-container .menu{
 		height: 55px;
-		width: 500px;
-#		background-color: #00dbfd;
+		width: 469px;
+		background-color: #00dbfd;
 		float: left;
 		border-right: 1px solid white;
 	}
@@ -154,7 +154,6 @@
 			text-decoration: none;
 			color: white;
 			margin-top: -8px;
-			margin-right: 7px;
 			}
 		.HEADER .menu-container .menu ul li a:hover{
 			background-color: #5b4d3b;
@@ -163,13 +162,12 @@
 	.HEADER .menu-container .languages{
 		height: 55px;
 		width: 115px;
-#		background-color: fuchsia;
+		background-color: fuchsia;
 		float: right;
 	}
 
 	.HEADER .menu-container .languages ul{
 			list-style-type: none;
-			margin-left: -25px;
 	}
 	
 	.HEADER .menu-container .languages ul li{
@@ -200,87 +198,12 @@
 
 }
 
-.arrow-left-container{
-	width: 25px;
-	height: 42px;
-#	background-color: black;
-	position: absolute;
-	left: 75px;
-	top: 250px;
+.slider-left{
+	width: 100px;
+	height: 200px;
+	background-color: grey;
+	margin-left: 20px;
 }
-
-.arrow-left{
-	background-image: url("img/arrow-left.png");
-	width: 25px;
-	height: 42px;
-	cursor: pointer;
-}
-.arrow-left:hover{
-	background-image: url("img/arrow-left-h.png");
-}
-
-.arrow-right-container{
-	width: 25px;
-	height: 42px;
-#	background-color: black;
-	position: absolute;
-	right: 75px;
-	top: 250px;
-}
-
-.arrow-right{
-	background-image: url("img/arrow-right.png");
-	width: 25px;
-	height: 42px;
-	cursor: pointer;
-}
-.arrow-right:hover{
-	background-image: url("img/arrow-right-h.png");
-}
-
-.slider-title-container1{
-	text-align: center;
-	width: 200px;
-	height: 60px;
-	background-color: black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-	position: absolute;
-	left: 150px;
-	top: 230px;
-	cursor: pointer;
-}
-
-.slider-title1{
-	color: white;
-	font-family: 'Open Sans';
-	font-size: 33px;
-	font-weight: 400;
-	margin: 5px;
-	}
-
-.slider-title-container2{
-	text-align: left;
-	width: 320px;
-	height: 75px;
-	background-color: black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-	position: absolute;
-	left: 150px;
-	top: 310px;
-	cursor: pointer;
-}
-
-.slider-title2{
-	color: white;
-	font-family: 'Open Sans';
-	font-size: 19px;
-	font-weight: 300;
-	margin: 10px 5px 5px 15px;
-	}
-
-
 
 span.slider-link{
 	border: 4px solid #cebb89;
@@ -290,6 +213,7 @@ span.slider-link{
 	height: 10px;
 	display: block;
 	margin-right: 10px;
+
 }
 
 span.slider-link:hover{
@@ -350,11 +274,10 @@ span.slider-link:hover{
 		
 			.SERVICES .prices .izcenojumi-bloki .izcenojumi-bloks1{
 				width: 510px;
-			#	height: 600px;
+				height: 600px;
 				float: left;
 				margin-right: 30px;
-			#	background-color: lime;
-				margin-bottom: 80px;
+				background-color: lime;
 			}
 
 				.SERVICES .prices .izcenojumi-bloki .izcenojumi-bloks1 > div  h3{
@@ -370,7 +293,7 @@ span.slider-link:hover{
 				height: 400px;
 				float: left;
 				margin-left: 30px;
-			#	background-color: blue;
+				background-color: blue;
 			}
 		
 				.SERVICES .prices .izcenojumi-bloki .izcenojumi-bloks2 > div h3{
@@ -380,53 +303,40 @@ span.slider-link:hover{
 					color: #473a15;
 					margin-top: 5px;
 				}
-		/*border-Collape nonjem tabulai resnas linijas */
+		/*Collape nonjem tabulai resnas linijas */
 		.prices table {
 			border-collapse: collapse;
 			min-width: 100%;
 		}
 		
 		.prices table td.price{
-		text-align: left;
-		font-weight: 600;
-		vertical-align: text-top;
-		padding-right: 10px;
-		padding-left: 10px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		text-align: center;	
 		}
 		
 		.prices table th, .prices table td{
 		
 		}
-				
-		.prices table th{
-			border-top: none;
-			border-left: none;
-			border-right: none;
-			border-bottom: 1px solid #dfd9cf;
-		}
-
+		
 		.tabletitle, .tabletd{
 			text-align: left;
 			padding-left: 20px;
 			padding-top: 10px;
 			padding-bottom: 10px;
-			font-size: 13px;
 		}
-
+		
+		.prices table th{
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-bottom: 1px solid red;
+		}
 
 .prices table tr.grey-bg{
 	background-color: #f2ebe1;
 }
 
-.prices table tr.lastrow{
-	border-top: 1px solid #dfd9cf;
-	
-}
-
 .small-text{
-	font-size: 11px;
+	font-size: 8px;
 }
 
 		
@@ -451,10 +361,9 @@ span.slider-link:hover{
 			}
 			
 .about-us-person1, .about-us-person2{
-	width: 450px;
-#	height: 600px;
-#	background-color: yellow;
-	margin-bottom: 50px;
+	width: 400px;
+	height: 700px;
+	background-color: yellow;
 }
 
 .about-us-person1{
@@ -467,9 +376,9 @@ span.slider-link:hover{
 
 .personal-info-container{
 	width: 300px;
-	height: 230px;
+	height: 400px;
 	margin: 0 auto;
-#	background-color: brown;
+	background-color: brown;
 	text-align: center;
 }
 
@@ -488,8 +397,8 @@ span.slider-link:hover{
 }
 
 .personal-info-devider{
-	border-bottom: 1px solid #8d7b66;
-	margin-bottom: 10px;
+	border-bottom: 1px solid #C7A457;
+	border-bottom: 10px;
 }
 
 .tel, .email{
@@ -498,40 +407,19 @@ span.slider-link:hover{
 
 .certificates-container{
 	margin-top: 20px;
-	background-color: #624e36;
+	background-color: black;
 }
 
-.one-certificate-container{
-#	background-color: red;
-	width: 195px;
-	height: 50px;
-	color: #eadfcd;
-	margin: 10px 15px;	
+.one-certificate{
+	background-color: red;
+	margin: 0 20px;
+	width: 150px;
+	height: 60px;
 }
 
-.one-certificate-container2{
-#	background-color: red;
-	width: 155px;
-	height: 50px;
-	color: #eadfcd;
-	margin: 10px 145px;
-}
-
-.one-certificate-logo{
-	
-}
-
-.one-certificate-text{
+.one-certificate p{
 	font-size: 10px;
-	margin-top: 7px;
 }
-
-.one-certificate-subtext {
-	font-size: 13px;
-	font-weight: lighter;
-	color: white;
-}
-
 
 /*	.about-us .parmums-bloki{
 			margin: 0 100px;
@@ -557,222 +445,84 @@ span.slider-link:hover{
 
 .CLIENTS{
 	position: relative;
-#	height: 630px;
-}
-
-.clients-container{
-	margin: 0 100px 50px 100px;
+	height: 700px;
 }
 
 .clients-container1{
 	width: 100%;
-	height: 80px;
-#	background-color: red;
+	height: 200px;
+	background-color: red;
 	margin-top: 80px;
-
 }
 
-.clients-container2{
+.clients-container1{
 	width: 100%;
-	height: 77px;
-#	background-color: blue;
+	height: 200px;
+	background-color: blue;
 	margin-top: 80px;
 }
 
-.clients-container3{
-	width: 100%;
-	height: 90px;
-#	background-color: green;
-	margin-top: 80px;
-}
-
-.partner-lzm{
-	background-image: url("_temp/partners/logo-lzm1.png");
+.lzm{
+	background-image: url("_temp/logo-lzm1.png");
 	width: 217px;
 	height: 56px;
 	cursor: pointer;
-	margin-top: 10px;
-	margin-right: 66px;
+	margin-top: 20px;
 }
-.partner-lzm:hover{
-	background-image: url("_temp/partners/logo-lzm2.png");
+.lzm:hover{
+	background-image: url("_temp/logo-lzm2.png");
 }
 
-.partner-mezi{
-	background-image: url("_temp/partners/logo-mezi1.png");
+.mezi{
+	background-image: url("_temp/logo-mezi1.png");
 	width: 156px;
 	height: 73px;
 	cursor: pointer;
-	margin-top: 5px;
-	margin-right: 66px;
 }
-.partner-mezi:hover{
-	background-image: url("_temp/partners/logo-mezi2.png");
+.mezi:hover{
+	background-image: url("_temp/logo-mezi2.png");
 }
 
-.partner-gibson{
-	background-image: url("_temp/partners/logo-gibson1.png");
+.gibson{
+	background-image: url("_temp/logo-gibson1.png");
 	width: 159px;
 	height: 51px;
 	cursor: pointer;
-	margin-top: 15px;
-	margin-right: 66px;
 }
-.partner-gibson:hover{
-	background-image: url("_temp/partners/logo-gibson2.png");
+.gibson:hover{
+	background-image: url("_temp/logo-gibson2.png");
 }
 
-.partner-bbuilder{
-	background-image: url("_temp/partners/logo-bbuilder1.png");
+.bbuilder{
+	background-image: url("_temp/logo-bbuilder1.png");
 	width: 103px;
 	height: 57px;
 	cursor: pointer;
-	margin-top: 10px;
-	margin-right: 66px;
 }
-.partner-bbuilder:hover{
-	background-image: url("_temp/partners/logo-bbuilder2.png");
+.bbuilder:hover{
+	background-image: url("_temp/logo-bbuilder2.png");
 }
 
-.partner-bsf{
-	background-image: url("_temp/partners/logo-bsf1.png");
+.bsf{
+	background-image: url("_temp/logo-bsf1.png");
 	width: 169px;
 	height: 37px;
 	cursor: pointer;
-	margin-top: 20px;
 }
-.partner-bsf:hover{
-	background-image: url("_temp/partners/logo-bsf2.png");
-}
-
-.partner-statoil{
-	background-image: url("_temp/partners/logo-statoil1.png");
-	width: 305px;
-	height: 43px;
-	cursor: pointer;
-	margin-top: 17px;
-	margin-right: 52px;
-}
-.partner-statoil:hover{
-	background-image: url("_temp/partners/logo-statoil2.png");
+.bsf:hover{
+	background-image: url("_temp/logo-bsf2.png");
 }
 
-.partner-casamona{
-	background-image: url("_temp/partners/logo-casamona1.png");
-	width: 158px;
-	height: 46px;
-	cursor: pointer;
-	margin-top: 10px;
-	margin-right: 52px;
-}
-.partner-casamona:hover{
-	background-image: url("_temp/partners/logo-casamona2.png");
-}
-
-.partner-blueroots{
-	background-image: url("_temp/partners/logo-blueroots1.png");
-	width: 175px;
-	height: 46px;
-	cursor: pointer;
-	margin-top: 15px;
-	margin-right: 52px;
-}
-.partner-blueroots:hover{
-	background-image: url("_temp/partners/logo-blueroots2.png");
-}
-
-.partner-roads{
-	background-image: url("_temp/partners/logo-roads1.png");
-	width: 75px;
-	height: 75px;
-	cursor: pointer;
-	margin-top: 0px;
-	margin-right: 52px;
-}
-.partner-roads:hover{
-	background-image: url("_temp/partners/logo-roads2.png");
-}
-
-.partner-latvenergo{
-	background-image: url("_temp/partners/logo-latvenergo1.png");
-	width: 156px;
+.statoil{
+	background-image: url("_temp/logo-statoil1.png");
+	width: 302px;
 	height: 40px;
 	cursor: pointer;
-	margin-top: 19px;
+	margin-top: 120px;
 }
-.partner-latvenergo:hover{
-	background-image: url("_temp/partners/logo-latvenergo2.png");
+.statoil:hover{
+	background-image: url("_temp/logo-statoil2.png");
 }
-
-.partner-filterline{
-	background-image: url("_temp/partners/logo-filterline1.png");
-	width: 74px;
-	height: 89px;
-	cursor: pointer;
-	margin-top: 0px;
-	margin-right: 63px;
-}
-.partner-filterline:hover{
-	background-image: url("_temp/partners/logo-filterline2.png");
-}
-
-.partner-lmt{
-	background-image: url("_temp/partners/logo-lmt1.png");
-	width: 128px;
-	height: 46px;
-	cursor: pointer;
-	margin-top: 20px;
-	margin-right: 63px;
-}
-.partner-lmt:hover{
-	background-image: url("_temp/partners/logo-lmt2.png");
-}
-
-.partner-brivosta{
-	background-image: url("_temp/partners/logo-brivosta1.png");
-	width: 86px;
-	height: 79px;
-	cursor: pointer;
-	margin-top: 4px;
-	margin-right: 63px;
-}
-.partner-brivosta:hover{
-	background-image: url("_temp/partners/logo-brivosta2.png");
-}
-
-.partner-ventbunkers{
-	background-image: url("_temp/partners/logo-ventbunkers1.png");
-	width: 175px;
-	height: 46px;
-	cursor: pointer;
-	margin-top: 27px;
-	margin-right: 63px;
-}
-.partner-ventbunkers:hover{
-	background-image: url("_temp/partners/logo-ventbunkers2.png");
-}
-
-.partner-latio{
-	background-image: url("_temp/partners/logo-latio1.png");
-	width: 113px;
-	height: 53px;
-	cursor: pointer;
-	margin-top: 20px;
-	margin-right: 63px;
-}
-.partner-latio:hover{
-	background-image: url("_temp/partners/logo-latio2.png");
-}
-
-.partner-ventspils{
-	background-image: url("_temp/partners/logo-ventspils1.png");
-	width: 188px;
-	height: 62px;
-	cursor: pointer;
-	margin-top: 15px;
-}
-
-
 
 
 .up{
@@ -806,7 +556,7 @@ span.slider-link:hover{
 
 .contacts-map{
 	width: 382px;
-	height: 270px;
+	height: 265px;
 	margin: 0 auto;
 	border: 4px solid #c7a457;
 }
@@ -864,14 +614,13 @@ span.slider-link:hover{
 	}
 
 .firstname-field, .email-field{
-	width: 165px;
+	width: 185px;
 	height: 30px;
 	margin-top: 10px;
-	padding-left: 10px;
 }
 
 .firstname-field{
-	margin-right: 33px;
+	margin-right: 11px;
 }
 
 .text-field{
@@ -880,7 +629,6 @@ span.slider-link:hover{
 	height: 128px;
 	resize: none;
 	box-sizing: border-box;
-	padding-left: 10px;
 }
 
 .form-title{
